@@ -15,6 +15,13 @@ namespace TP3
         public Form1()
         {
             InitializeComponent();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string inputText = txtInput.Text;
+            label2.Text = "Halo " + inputText;
         }
     }
 }
